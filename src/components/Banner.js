@@ -16,8 +16,8 @@ export default function Banner() {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className='h3 font-weight-bold color'>Indian Basmati</h3>
+                        <p className="text-dark">Green Gold Rice export best basmati rice from all over the India</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +28,8 @@ export default function Banner() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className='h4 text-dark font-weight-bold'>Different Varities</h3>
+                        <p className="text-dark">Green Gold Rice export and import all type of rice varity from all over the word</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +40,8 @@ export default function Banner() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className='h4 text-dark font-weight-bold'>Market Leader</h3>
+                        <p className="text-dark">Green Gold Rice pvt ltd is a leader into a rice import and export bussiness</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -52,8 +52,8 @@ export default function Banner() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className='h4 text-dark font-weight-bold'>Quality</h3>
+                        <p className="text-dark">Green Gold Rice provide best quality of rice to its customer with full precaution.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
