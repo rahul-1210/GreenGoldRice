@@ -6,11 +6,25 @@ import reportWebVitals from './reportWebVitals';
 import './css/reset.css'
 import './css/main.css'
 import './css/primary.css'
+import './css/Speciality.css';
+import './css/Navigation.css'
+import './css/Product.css';
+import './css/Products.css';
+import './css/Form.css';
+import './css/item.css';
+import { BrowserRouter } from 'react-router-dom';
+import { StateProvider } from './components/Stateprovider';
+import { initialState} from './components/reducer';
+import reducer from './components/reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <StateProvider initialState={initialState} reducer={reducer}>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
+    </StateProvider>
   </React.StrictMode>
 );
 

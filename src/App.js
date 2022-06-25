@@ -1,14 +1,85 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom'
+import { Routes } from 'react-router-dom'
+import Navigation from './components/Navigation'
+import Speciality from './components/Speciality'
+import Banner from '../src/components/Banner'
+import Footer from '../src/components/Footer'
+import Services from '../src/components/Services'
+import About from '../src/components/About'
+import Form from '../src/components/Form'
+import ContactUs from '../src/components/ContactUs'
 import Home from './components/Home'
+import Products from './components/Products'
 
 function App() {
   return (
-    <div className="App bg-setup">
-     <h1 className='h1 text-light'>Green Gold Rice</h1>
-     <Home />
+    <div className="App">
+      <Routes>
+        <Route
+          path="/products"
+          element={
+            <>
+              <Navigation />
+              <Banner />
+              <Products />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <Navigation />
+              <Banner />
+              <Services/>
+              <About />
+              <Footer />
+            </>
+          }
+        />
+        
+
+
+        <Route
+          path="/shop"
+          element={
+            <>
+              <Navigation />
+              <Form />
+              <Footer/>
+            </>
+          }
+        />
+
+        {/* <Route
+          path="/checkout"
+          element={
+            <>
+              <Navigation />
+              <Checkout />
+            </>
+          }
+        /> */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navigation />
+              <Banner />
+              <Speciality />
+              <Services />
+              <Footer />
+            </>
+
+          }
+        />
+      </Routes>
     </div>
   );
 }
 
 export default App;
+

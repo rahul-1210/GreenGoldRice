@@ -1,0 +1,40 @@
+.item__box {
+    width: 23%;
+    background-color: rgb(244, 252, 252);
+    margin: 0.8rem;
+    border-radius: 1rem;
+    border-bottom: 3px solid black;
+  }
+  button {
+    margin-bottom: 0.3rem;
+  }
+  
+  .item__box img {
+    width: 50%;
+    height: 180px;
+  }
+  
+  .item__box p {
+    font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .item__box {
+      width: 40%;
+    }
+  
+    .item__box img {
+      width: 80%;
+      height: 140px;
+    }
+  
+    .item__box p {
+      font-size: 0.8rem;
+    }
+  
+    .item__box button {
+      font-size: 0.8rem;
+      width: 80%;
+    }
+  }
+  
