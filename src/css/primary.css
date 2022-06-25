@@ -1,0 +1,52 @@
+.corous-height {
+    height:70vh;
+}
+
+ul>li{
+    padding:5px;
+}
+.serv {
+    border-bottom: 3px;
+    border-color:coral;
+    border-style: solid;    
+}
+
+.icon {
+    height:50px;
+    width:50px;
+}
+.header {
+    text-align: left;
+    font-size: 20px;
+}
+.desc {
+    text-align: left;
+    font-size: 15px;
+}
+.card:hover {
+    border-color: coral;
+    border-style: solid;
+    border-width: 2px;
+}
+.btn-bg{
+    background-color: coral;
+    border:none;
+    margin-left: 2px;
+}
+.img-h>img{
+    height:30px;
+    width:30px;
+}
+.img-h>span {
+    display:table-caption;
+}
+.foot{
+    background-color: rgb(61, 61, 61);
+}
+
+.form-head {
+    background-image:url('../images/ricepaddy2.jpg');
+}
+.map {
+    height: 25rem;
+}
