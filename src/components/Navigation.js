@@ -41,11 +41,9 @@ function Navigation() {
                         <Link to="/about" className="nav-link active" aria-current="page">
                             <li className="nav-item">About</li>
                         </Link>
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">
-                                Contact Us
-                            </a>
-                        </li>
+                        <Link to="/contact" className="nav-link active" aria-current="page">
+                            <li className="nav-item">Contact us</li>
+                        </Link>
                     </ul>
                 </div>
             </div>

@@ -9,6 +9,7 @@ import Footer from '../src/components/Footer'
 import Services from '../src/components/Services'
 import About from '../src/components/About'
 import Form from '../src/components/Form'
+import Checkout from './components/Checkout';
 import ContactUs from '../src/components/ContactUs'
 import Home from './components/Home'
 import Products from './components/Products'
@@ -54,15 +55,26 @@ function App() {
           }
         />
 
-        {/* <Route
+        <Route
           path="/checkout"
           element={
             <>
               <Navigation />
               <Checkout />
+              <Footer/>
             </>
           }
-        /> */}
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Navigation />
+              <ContactUs />
+              <Footer/>
+            </>
+          }
+        />
         <Route
           path="/"
           element={

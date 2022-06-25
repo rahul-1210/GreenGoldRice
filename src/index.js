@@ -12,6 +12,8 @@ import './css/Product.css';
 import './css/Products.css';
 import './css/Form.css';
 import './css/item.css';
+import './css/Checkout.css'
+import './css/CheckoutItem.css'
 import { BrowserRouter } from 'react-router-dom';
 import { StateProvider } from './components/Stateprovider';
 import { initialState} from './components/reducer';
