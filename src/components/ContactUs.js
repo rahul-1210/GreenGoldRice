@@ -9,7 +9,7 @@ export default function ContactUs() {
                 <div className='d-flex justify-content-center'>
                     <h3 className='h3 pt-4 pb-1 serv w-25'> Office Locations</h3>
                 </div>
-                <div className='row d-flex justify-content-around mb-3'>
+                <div className='row d-flex justify-content-around mb-3 gap-2'>
                     <div className="col-sm-3">
                         <div className="card">
                             <div className="card-body ">
@@ -46,7 +46,7 @@ export default function ContactUs() {
 
             </div>
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-xs-9 col-md-6 map-head">
                     <img src={Agramap} alt="agra city map" className='map' />
                 </div>
                 <div className="col-md-6 form-head">

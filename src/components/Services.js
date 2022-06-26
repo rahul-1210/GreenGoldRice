@@ -9,7 +9,7 @@ export default function Services() {
             <div className='d-flex justify-content-center'>
                 <h3 className='h3 pt-4 pb-1 serv w-25'> Our Services</h3>
             </div>
-            <div className='row d-flex justify-content-around'>
+            <div className='row d-flex justify-content-around gap-2'>
                 <div className="col-sm-3">
                     <div className="card">
                         <img className="card-img-top icon p-1" src={PricingIcon} alt="Pricing Icon" />
