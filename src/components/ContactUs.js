@@ -9,11 +9,11 @@ export default function ContactUs() {
                 <div className='d-flex justify-content-center'>
                     <h3 className='h3 pt-4 pb-1 serv w-25'> Office Locations</h3>
                 </div>
-                <div className='row d-flex justify-content-around'>
+                <div className='row d-flex justify-content-around mb-3'>
                     <div className="col-sm-3">
                         <div className="card">
                             <div className="card-body ">
-                                <h5 className="card-title header">Agra, India</h5>
+                                <h5 className="card-title serv-header">Agra, India</h5>
                                 <p className="card-text text-left desc">
                                     The Mall Road, Near, Pratappura Crossing, Baluganj, Rakabganj, Agra, Uttar Pradesh 282001
                                 </p>
@@ -25,7 +25,7 @@ export default function ContactUs() {
                     <div className="col-sm-3">
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title header">Texas,United State</h5>
+                                <h5 className="card-title serv-header">Texas,United State</h5>
                                 <p className="card-text desc">8825 Highway 6 N Houston, Texas , United State</p>
                                 <p className="card-text text-left desc">Call us- 281-859-9016</p>
                                 <p className="card-text text-left desc">Email us - greengoldriceltd@ggr.com</p>
@@ -35,7 +35,7 @@ export default function ContactUs() {
                     <div className="col-sm-3">
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title header">Colombo, Sri Lanka</h5>
+                                <h5 className="card-title serv-header">Colombo, Sri Lanka</h5>
                                 <p className="card-text text-left desc">WV43+QR1, Sir James Pieris Mawatha, Colombo, Sri Lanka</p>
                                 <p className="card-text text-left desc">Call us- 143-678-7215</p>
                                 <p className="card-text text-left desc">Email us - greengoldriceltd@ggr.com</p>

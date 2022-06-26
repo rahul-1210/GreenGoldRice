@@ -65,7 +65,7 @@ function Products() {
           <Product img={src} text={text[idx]} idx={idx} type={name[idx]} />
         );
       })}
-      <p className="header__2">Our Products Imported from :-</p>
+      <p className="header__2">Our Products Imported from</p>
       <div className="flags">
         {flag.map((src) => {
           return <Flag img={src} />;

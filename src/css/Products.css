@@ -9,6 +9,8 @@
   .header__2 {
     font-size: 1.6rem;
     font-weight: bolder;
+    margin-bottom: 1%;
+    margin-top: 1%;
   }
   
   .flags {

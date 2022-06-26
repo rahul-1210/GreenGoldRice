@@ -14,9 +14,9 @@ function CheckoutItem({ item }) {
   return (
     <div className="checkoutitem__box">
       <img src={item.image} />
-      <p>Rs. {item.price}</p>
-      <p>{item.quantity}Kg</p>
-      <p>{item.description}</p>
+      <p className='price__checkout'>Rs. {item.price}</p>
+      <p className='quantity__checkout'>{item.quantity}Kg</p>
+      <p className='description__checkout'>{item.description}</p>
       <button onClick={deleteFromBasket} type="button" className="btn btn-dark">
         Remove from Basket
       </button>

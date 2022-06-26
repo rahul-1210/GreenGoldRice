@@ -1,21 +1,27 @@
 .item__box {
     width: 23%;
-    background-color: rgb(244, 252, 252);
+    background-color: white;
     margin: 0.8rem;
     border-radius: 1rem;
     border-bottom: 3px solid black;
   }
   button {
     margin-bottom: 0.3rem;
+    margin-top: 4%;
   }
   
   .item__box img {
-    width: 50%;
-    height: 180px;
+    width: 40%;
+    height: 100px;
   }
   
-  .item__box p {
-    font-weight: 500;
+  .price,.quantity {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .description{
+    margin-top: 2%;
   }
   
   @media only screen and (max-width: 600px) {

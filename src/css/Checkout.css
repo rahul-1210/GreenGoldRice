@@ -13,7 +13,8 @@
   }
   
   .subtotal__header p {
-    font-weight: bold;
+    font-weight: 800;
+    margin-top: 2%;
   }
   
   .subtotal__header button {

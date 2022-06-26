@@ -14,9 +14,9 @@ function Item({ item }) {
   return (
     <div className="item__box">
       <img src={item.image} />
-      <p>Rs. {item.price}</p>
-      <p>{item.quantity}Kg</p>
-      <p>{item.description}</p>
+      <p className='price'>Rs. {item.price}</p>
+      <p className='quantity'>{item.quantity}Kg</p>
+      <p className='description'>{item.description}</p>
       <button onClick={addtoBasket} type="button" className="btn btn-dark">
         Add to Basket
       </button>

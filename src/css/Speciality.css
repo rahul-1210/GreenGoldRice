@@ -2,7 +2,7 @@
     font-size: 1.8rem;
     font-weight: bolder;
     color: black;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid coral;
     border-radius: 4rem;
   }
   
@@ -51,7 +51,7 @@
   .farmers,
   .factory,
   .warehouse {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     margin: 1%;
     border-radius: 2rem;
   }
@@ -59,8 +59,8 @@
   .farmers:hover,
   .factory:hover,
   .warehouse:hover {
-    border: 3px solid black;
-    box-shadow: 5px 5px black;
+    border: 1px solid coral;
+    box-shadow: 2px 2px coral;
   }
   
   @media only screen and (max-width: 600px) {

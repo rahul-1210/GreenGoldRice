@@ -12,13 +12,18 @@
     height: 150px;
   }
   
-  .checkoutitem__box p {
-    font-weight: bolder;
+  .price__checkout,.quantity__checkout {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .description__checkout{
+    margin-top: 2%;
   }
   
   .checkoutitem__box button {
     width: 40%;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   
   @media only screen and (max-width: 600px) {

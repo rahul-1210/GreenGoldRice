@@ -1,5 +1,5 @@
 .discount__header {
-    background-image: url('/home/rahul/Documents/ReactProject/greengoldrice/src/images/varietyrice.jpg');
+    background-image: url('../images/varietyrice.jpg');
     border-radius: 2rem;
   }
   
@@ -31,6 +31,7 @@
     font-weight: bolder;
     font-size: 1rem;
     border-bottom: 2.5px solid black;
+    margin-top: 1%;
   }
   
   .items {
@@ -38,6 +39,7 @@
     margin-right: 3%;
     font-weight: bolder;
     font-size: 1rem;
+    margin-top: 0.5%;
   }
   
   .category button {
@@ -54,6 +56,11 @@
   .category__head {
     font-weight: 900;
     font-size: 1.5rem;
+    margin-top: 1%;
+  }
+
+  .category{
+    margin-top: 1%;
   }
   
   @media only screen and (max-width: 600px) {
