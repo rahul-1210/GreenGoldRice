@@ -17,7 +17,7 @@ export default function Banner() {
                     />
                     <Carousel.Caption>
                         <h3 className='h3 font-weight-bold color'>Indian Basmati</h3>
-                        <p className="text-dark">Green Gold Rice export best basmati rice from all over the India</p>
+                        <p className="color font-weight-bold">Green Gold Rice export best basmati rice from all over the India</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

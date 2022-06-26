@@ -20,7 +20,7 @@ export default function Footer() {
                         <input className="btn-bg mt-2 p-2" type="submit" value="Sign-up"></input>
                     </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-4 padd">
                     <h3 className='h3 text-light'>Quick Links</h3>
                     <ul className='text-light'>
                         <li>Products</li>
@@ -30,7 +30,7 @@ export default function Footer() {
                     </ul>
 
                 </div>
-                <div className="col-sm-4 text-light">
+                <div className="col-sm-4 text-light padd">
                     <h3 className='h3'>
                         Contact us
                     </h3>
@@ -38,7 +38,7 @@ export default function Footer() {
                         The Mall Road, Near, Pratappura Crossing, Baluganj, Rakabganj, Agra, Uttar Pradesh 282001
                     </p>
                     <p>
-                        email
+                        email-greengoldrice@ggr.com
                     </p>
                 </div>
             </div>
