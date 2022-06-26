@@ -6,8 +6,8 @@ import Warehouse from '../images/warehouse.png';
 function Speciality() {
   return (
     <div>
-      <div className="head">
-        <p>Our Products Speciality</p>
+      <div className="head p-1">
+        <h4 className='h4'>Our Products Speciality</h4>
       </div>
       <div className="speciality__container">
         <div className="farmers">

@@ -7,7 +7,7 @@ export default function Services() {
     return (
         <div className='container-fluid'>
             <div className='d-flex justify-content-center'>
-                <h3 className='h3 pt-4 pb-1 serv w-25'> Our Services</h3>
+                <h3 className='h4 pt-4 pb-1 serv w-50'> Our Services</h3>
             </div>
             <div className='row d-flex justify-content-around gap-2'>
                 <div className="col-sm-3">
